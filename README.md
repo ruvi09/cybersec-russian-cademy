@@ -1,89 +1,93 @@
 <!--
-  TryHackMe learning roadmap maintained for github.com/jkx00.
-  Room links and the original room inventory are retained from the supplied README.
+  Tradução e adaptação em português brasileiro do projeto original de jkx00.
+  Os nomes oficiais das salas e seus links foram mantidos.
 -->
 
 <div align="center">
 
-# 🛡️ TryHackMe Cybersecurity Roadmap
+# 🛡️ Roteiro de Cibersegurança do TryHackMe
 
-### A hands-on room checklist for building practical cybersecurity skills
+### Uma lista prática de salas para desenvolver habilidades em cibersegurança
 
 <p>
-  <img src="https://img.shields.io/badge/Cybersecurity-Learning-00C7B7?style=for-the-badge&logo=tryhackme&logoColor=white" alt="Cybersecurity learning" />
+  <img src="https://img.shields.io/badge/Cybersecurity-Learning-00C7B7?style=for-the-badge&logo=tryhackme&logoColor=white" alt="Aprendizado de cibersegurança" />
   <img src="https://img.shields.io/badge/Platform-TryHackMe-red?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" />
-  <img src="https://img.shields.io/badge/Progress-Markdown%20Checklist-6E56CF?style=for-the-badge" alt="Markdown checklist" />
+  <img src="https://img.shields.io/badge/Progress-Markdown%20Checklist-6E56CF?style=for-the-badge" alt="Lista de progresso em Markdown" />
 </p>
 
-**Learn by doing · Track your progress · Build your skills**
+**Aprenda na prática · Acompanhe seu progresso · Desenvolva suas habilidades**
 
 </div>
 
 ---
 
-## 👋 About This Repository
+## 👋 Sobre este repositório
 
-This repository organizes a large collection of TryHackMe room links into cybersecurity topics—from beginner fundamentals to web security, digital forensics, reverse engineering, privilege escalation, and Capture the Flag (CTF) practice.
+Esta é uma tradução comunitária em português brasileiro do [repositório original](https://github.com/jkx00/TryHackMe-Free-Rooms); nomes oficiais de salas e links foram mantidos.
 
-Use it as a personal learning tracker. Choose a topic, open a room, complete the exercises in the intended training environment, and check the box when you finish.
+Este repositório reúne links para salas do TryHackMe organizadas por temas de cibersegurança, desde conceitos básicos até segurança web, perícia forense digital, engenharia reversa, escalada de privilégios e desafios Capture the Flag (CTF).
 
-> **Please note:** This is a community learning checklist, not an official TryHackMe resource. Room names, links, access requirements, and availability may change over time. Some entries may be duplicated.
+Use a lista para acompanhar seus estudos: escolha um tema, abra uma sala, faça os exercícios no ambiente de treinamento indicado e marque a caixa ao concluir.
 
-## ✨ What You'll Find
+> **Atenção:** esta é uma lista comunitária de estudos e não é um recurso oficial do TryHackMe. Os nomes das salas, links, requisitos de acesso e disponibilidade podem mudar. Algumas salas podem aparecer mais de uma vez.
 
-- 🧭 **Topic-based navigation** to help you find rooms by skill area.
-- ✅ **Progress tracking** using GitHub Markdown checkboxes.
-- 🧰 **Practical topics** including Linux, networking, web security, forensics, and reverse engineering.
-- 🏁 **CTF practice** grouped by difficulty.
-- 🔗 **Direct links** to the relevant TryHackMe room pages.
+## ✨ O que você encontrará
 
-## 🚀 How to Use This Checklist
+- 🧭 **Navegação por tema** para encontrar salas por área de conhecimento.
+- ✅ **Acompanhamento do progresso** com caixas de seleção do Markdown do GitHub.
+- 🧰 **Temas práticos** como Linux, redes, segurança web, perícia forense e engenharia reversa.
+- 🏁 **Prática de CTF** organizada por dificuldade.
+- 🔗 **Links diretos** para as páginas das salas no TryHackMe.
 
-1. Choose a topic from the table below.
-2. Open a room and check its current availability and access requirements.
-3. Complete the room on TryHackMe.
-4. Change `- [ ]` to `- [x]` to mark a room as complete.
-5. Commit your changes to your own copy of the repository to keep your progress.
+## 🚀 Como usar esta lista
 
-## 🗂️ Room Categories
+1. Escolha um tema na tabela abaixo.
+2. Abra uma sala e confira a disponibilidade e os requisitos de acesso atuais.
+3. Conclua a sala no TryHackMe.
+4. Troque `- [ ]` por `- [x]` para marcar a sala como concluída.
+5. Faça commit das alterações na sua cópia do repositório para salvar seu progresso.
 
-The counts below are carried over from the supplied checklist and have not been independently verified.
+## 🗂️ Categorias de salas
 
-| Name of Topic                                     | Number of Rooms | Number of Completed Rooms |
+As quantidades abaixo foram mantidas da lista de referência e não foram verificadas de forma independente.
+
+| Tema                                               | Número de salas | Salas concluídas |
 | ------------------------------------------------- | :-------------: | :-----------------------: |
-| **[Introductory Rooms](#intro-rooms)**            |     **10**      |                           |
-| **[Linux Fundamentals](#linux-fundamentals)**     |      **5**      |           **5**           |
-| **[Windows Fundamentals](#windows-fundamentals)** |      **3**      |                           |
-| **[Basic Rooms](#basics-rooms)**                  |      **9**      |                           |
-| **[Reconnaissance](#recon)**                      |     **10**      |                           |
-| **[Scripting](#scripting)**                       |      **8**      |                           |
-| **[Networking](#networking)**                     |      **7**      |                           |
-| **[Tooling](#tooling)**                           |     **17**      |                           |
-| **[Crypto & Hashes](#crypto--hashes)**            |      **5**      |                           |
-| **[Steganography](#steganography)**               |      **6**      |                           |
-| **[Web](#web)**                                   |     **27**      |                           |
+| **[Salas introdutórias](#salas-introdutorias)**            |     **10**      |                           |
+| **[Fundamentos de Linux](#fundamentos-de-linux)**     |      **5**      |           **5**           |
+| **[Fundamentos de Windows](#fundamentos-de-windows)** |      **3**      |                           |
+| **[Fundamentos básicos](#fundamentos-basicos)**                  |      **9**      |                           |
+| **[Reconhecimento](#reconhecimento)**                      |     **10**      |                           |
+| **[Scripts e programação](#scripts-e-programacao)**                       |      **8**      |                           |
+| **[Redes](#redes)**                     |      **7**      |                           |
+| **[Ferramentas](#ferramentas)**                           |     **17**      |                           |
+| **[Criptografia e hashes](#criptografia-e-hashes)**            |      **5**      |                           |
+| **[Esteganografia](#esteganografia)**               |      **6**      |                           |
+| **[Segurança web](#seguranca-web)**                                   |     **27**      |                           |
 | **[Android](#android)**                           |      **1**      |                           |
-| **[Forensics](#forensics)**                       |      **5**      |                           |
-| **[Wifi Hacking](#wi-fi-hacking)**                |      **1**      |                           |
-| **[Reverse Engineering](#reverse-engineering)**   |     **11**      |                           |
-| **[Malware Analysis](#malware-analysis)**         |      **7**      |                           |
-| **[Privilege Escalation](#privesc)**              |     **13**      |                           |
+| **[Perícia forense digital](#pericia-forense-digital)**                       |      **5**      |                           |
+| **[Segurança Wi-Fi](#seguranca-wi-fi)**                |      **1**      |                           |
+| **[Engenharia reversa](#engenharia-reversa)**   |     **11**      |                           |
+| **[Análise de malware](#analise-de-malware)**         |      **7**      |                           |
+| **[Escalada de privilégios](#escalada-de-privilegios)**              |     **13**      |                           |
 | **[Windows](#windows)**                           |      **7**      |                           |
 | **[Active Directory](#active-directory)**         |      **5**      |                           |
-| **[PCAP Analysis](#pcap-analysis)**               |      **4**      |                           |
-| **[Buffer Overflow](#bufferoverflow)**            |      **4**      |                           |
-| **[Easy CTF](#easy-ctf)**                         |     **58**      |                           |
-| **[Medium CTF](#medium-ctf)**                     |     **73**      |                           |
-| **[Hard CTF](#hard-ctf)**                         |     **38**      |                           |
-| **[Misc](#misc)**                                 |     **35**      |                           |
-| **[Special Events](#special-events)**             |      **9**      |                           |
-| **Total Rooms:**                                  |     **378**     |                           |
+| **[Análise de PCAP](#analise-de-pcap)**               |      **4**      |                           |
+| **[Estouro de buffer](#estouro-de-buffer)**            |      **4**      |                           |
+| **[CTF fácil](#ctf-facil)**                         |     **58**      |                           |
+| **[CTF intermediário](#ctf-intermediario)**                     |     **73**      |                           |
+| **[CTF avançado](#ctf-avancado)**                         |     **38**      |                           |
+| **[Diversos](#diversos)**                                 |     **35**      |                           |
+| **[Eventos especiais](#eventos-especiais)**             |      **9**      |                           |
+| **Total de salas:**                                  |     **378**     |                           |
 
 ---
 
-## 📚 Room Checklist
+## 📚 Lista de salas
 
-## Intro Rooms
+<a id="salas-introdutorias"></a>
+
+## Salas introdutórias
 
 ---
 
@@ -107,7 +111,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Regular expressions](https://tryhackme.com/room/catregex)
 
-## Linux Fundamentals
+<a id="fundamentos-de-linux"></a>
+
+## Fundamentos de Linux
 
 ---
 
@@ -121,7 +127,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Linux Fundamentals Part 3](https://tryhackme.com/room/linuxfundamentalspart3)
 
-## Windows Fundamentals
+<a id="fundamentos-de-windows"></a>
+
+## Fundamentos de Windows
 
 ---
 
@@ -131,7 +139,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Windows Fundamentals 3](https://tryhackme.com/room/windowsfundamentals3xzx)
 
-## Basics Rooms
+<a id="fundamentos-basicos"></a>
+
+## Fundamentos básicos
 
 ---
 
@@ -153,7 +163,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | UltraTech](https://tryhackme.com/room/ultratech1)
 
-## Recon
+<a id="reconhecimento"></a>
+
+## Reconhecimento
 
 ---
 
@@ -177,7 +189,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Searchlight - IMINT](https://tryhackme.com/room/searchlightosint)
 
-## Scripting
+<a id="scripts-e-programacao"></a>
+
+## Scripts e programação
 
 ---
 
@@ -197,7 +211,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Why Subscribe](https://tryhackme.com/room/yara)
 
-## Networking
+<a id="redes"></a>
+
+## Redes
 
 ---
 
@@ -215,7 +231,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Dumping Router Firmware](https://tryhackme.com/room/rfirmware)
 
-## Tooling
+<a id="ferramentas"></a>
+
+## Ferramentas
 
 ---
 
@@ -253,7 +271,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Burp Suite: Repeater](https://tryhackme.com/room/burpsuiterepeater)
 
-## Crypto & Hashes
+<a id="criptografia-e-hashes"></a>
+
+## Criptografia e hashes
 
 ---
 
@@ -267,7 +287,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Brute It](https://tryhackme.com/room/bruteit)
 
-## Steganography
+<a id="esteganografia"></a>
+
+## Esteganografia
 
 ---
 
@@ -283,7 +305,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Unstable Twin](https://tryhackme.com/room/unstabletwin)
 
-## Web
+<a id="seguranca-web"></a>
+
+## Segurança web
 
 ---
 
@@ -347,7 +371,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Android Hacking 101](https://tryhackme.com/room/androidhacking101)
 
-## Forensics
+<a id="pericia-forense-digital"></a>
+
+## Perícia forense digital
 
 ---
 
@@ -361,13 +387,17 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Disk Analysis &amp; Autopsy](https://tryhackme.com/room/autopsy2ze0)
 
-## Wi-Fi Hacking
+<a id="seguranca-wi-fi"></a>
+
+## Segurança Wi-Fi
 
 ---
 
 - [ ] [TryHackMe | Wifi Hacking 101](https://tryhackme.com/room/wifihacking101)
 
-## Reverse Engineering
+<a id="engenharia-reversa"></a>
+
+## Engenharia reversa
 
 ---
 
@@ -391,7 +421,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | REloaded](https://tryhackme.com/room/reloaded)
 
-## Malware Analysis
+<a id="analise-de-malware"></a>
+
+## Análise de malware
 
 ---
 
@@ -409,7 +441,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Dunkle Materie](https://tryhackme.com/room/dunklematerieptxc9)
 
-## PrivEsc
+<a id="escalada-de-privilegios"></a>
+
+## Escalada de privilégios
 
 ---
 
@@ -471,7 +505,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | RazorBlack](https://tryhackme.com/room/raz0rblack)
 
-## PCAP Analysis
+<a id="analise-de-pcap"></a>
+
+## Análise de PCAP
 
 ---
 
@@ -483,7 +519,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Overpass 2 - Hacked](https://tryhackme.com/room/overpass2hacked)
 
-## BufferOverflow
+<a id="estouro-de-buffer"></a>
+
+## Estouro de buffer
 
 ---
 
@@ -495,7 +533,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Intro To Pwntools](https://tryhackme.com/room/introtopwntools)
 
-## Easy CTF
+<a id="ctf-facil"></a>
+
+## CTF fácil
 
 ---
 
@@ -615,7 +655,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Mustacchio](https://tryhackme.com/room/mustacchio)
 
-## Medium CTF
+<a id="ctf-intermediario"></a>
+
+## CTF intermediário
 
 ---
 
@@ -765,7 +807,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Road](https://tryhackme.com/room/road)
 
-## Hard CTF
+<a id="ctf-avancado"></a>
+
+## CTF avançado
 
 ---
 
@@ -845,7 +889,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Shaker](https://tryhackme.com/room/shaker)
 
-## Misc
+<a id="diversos"></a>
+
+## Diversos
 
 ---
 
@@ -919,7 +965,9 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | The find command](https://tryhackme.com/room/thefindcommand)
 
-## Special Events
+<a id="eventos-especiais"></a>
+
+## Eventos especiais
 
 ---
 
@@ -941,19 +989,19 @@ The counts below are carried over from the supplied checklist and have not been 
 
 - [ ] [TryHackMe | Learn and win prizes #2](https://tryhackme.com/room/tickets2)
 
-## 🔐 Responsible Learning
+## 🔐 Aprendizado responsável
 
-Use these rooms and techniques only in the intended training environments or on systems you own or have explicit permission to test. Follow TryHackMe's rules and all applicable laws.
+Use estas salas e técnicas somente nos ambientes de treinamento previstos ou em sistemas que sejam seus ou para os quais você tenha autorização explícita. Siga as regras do TryHackMe e a legislação aplicável.
 
-## 👨‍💻 Maintainer
+## 👨‍💻 Créditos e manutenção
 
-Curated and formatted for the **jkx00** GitHub learning collection.
+Esta tradução e adaptação foi feita a partir do projeto original de **jkx00**. A lista de salas e a organização temática são creditadas ao autor original.
 
-- **GitHub:** [@jkx00](https://github.com/jkx00)
-- **Training platform:** [TryHackMe](https://tryhackme.com/p/Mr.JK)
+- **Projeto original:** [jkx00/TryHackMe-Free-Rooms](https://github.com/jkx00/TryHackMe-Free-Rooms)
+- **Plataforma de treinamento:** [TryHackMe](https://tryhackme.com/p/Mr.JK)
 
 <div align="center">
 
-**Keep learning. Keep building. Stay curious. ⚡**
+**Continue aprendendo. Pratique e mantenha a curiosidade. ⚡**
 
 </div>
